@@ -1,18 +1,53 @@
-# holman does dotfiles
+# Marek does dotfiles
 
 ## dotfiles
 
-Your dotfiles are how you personalize your system. These are mine.
 
-I was a little tired of having long alias files and everything strewn about
-(which is extremely common on other dotfiles projects, too). That led to this
-project being much more topic-centric. I realized I could split a lot of things
-up into the main areas I used (Ruby, git, system libraries, and so on), so I
-structured the project accordingly.
 
-If you're interested in the philosophy behind why projects like these are
-awesome, you might want to [read my post on the
-subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
+
+pouziji: 
+https://github.com/holman/dotfiles
+
+
+1) ./homebrew/install.sh  (instaloval xcode tools)
+2) presunout dotfiles-master do ~/.dotfiles
+3) ./install-deps.sh
+4) ./install-jenv-apps.sh -> tady to asi stale hapruje
+5) ./.cask
+6) 
+osx soubor vylepsit: 
+https://github.com/mathiasbynens/dotfiles/blob/master/.osx
+
+
+
+
+https://github.com/skwp/dotfiles
+
+
+jak v bashi nainstalovat 
+https://github.com/paulirish/dotfiles/blob/master/install-deps.sh
+homebrew, jenv,…
+
+examples of files
+http://dotfiles.org/.zshrc
+
+
+tutorials
+http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449
+
+http://simonowendesign.co.uk/blog/2012/12/02/mother-effing-dotfiles/
+
+
+homebrew cask
+https://mug.im/manage-your-mac-apps-with-homebrew-cask/
+
+
+
+
+
+
+
+
 
 ## install
 

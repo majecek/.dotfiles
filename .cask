@@ -1,0 +1,91 @@
+# Make sure we’re using the latest Homebrew
+brew update
+
+# Upgrade any already-installed formulae
+brew upgrade
+
+# Install GNU core utilities (those that come with OS X are outdated)
+# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
+brew install coreutils
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
+brew install findutils
+
+# Install wget with IRI support
+brew install wget --enable-iri
+
+# Install other useful binaries
+brew install ack
+brew install git
+brew install node
+brew install tree
+brew install zsh zsh-completions
+
+
+#
+# Install default application
+#
+
+# Install native apps
+brew tap phinze/homebrew-cask
+brew install brew-cask
+
+function installcask() {
+	brew cask install "${@}" 2> /dev/null
+}
+
+installcask dropbox
+installcask google-chrome
+installcask google-chrome-canary
+installcask imageoptim
+installcask iterm2
+installcask sublime-text
+installcask the-unarchiver
+installcask virtualbox
+installcask vlc
+installcask java
+
+
+
+
+#
+# Here is list to install programs I use
+#
+installcask IntellijIdeaUltimate12
+installcask Onepassword3
+installcask onyx
+installcask appcleaner
+installcask bartender
+installcask bettertouchtool
+installcask caffeine
+installcask cord
+installcask evernote
+installcask filezilla
+installcask firefox
+installcask forklift
+installcask gfxcardstatus
+installcask hamachi
+installcask light-table
+installcask omnifocus
+installcask tunnelblick
+installcask utorrent
+installcask java
+installcask java
+installcask java
+
+
+
+#spotifree
+#spotify
+#picasa
+#parallels
+#little-snitch
+#intellij-idea-ultimate
+#intellij-idea-community
+
+
+
+
+
+
+# Remove outdated versions from the cellar
+brew cleanup
