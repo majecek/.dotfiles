@@ -9,12 +9,13 @@ pouziji:
 https://github.com/holman/dotfiles
 
 
-1) ./homebrew/install.sh  (instaloval xcode tools)
-2) presunout dotfiles-master do ~/.dotfiles
-3) ./install-deps.sh
-4) ./install-jenv-apps.sh -> tady to asi stale hapruje
-5) ./.cask
-6) 
+ 
+* presunout dotfiles-master do ~/.dotfiles
+* ./install-deps.sh
+* ./homebrew/install.sh  (instaloval xcode tools)
+* ./.cask
+
+ 
 osx soubor vylepsit: 
 https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
