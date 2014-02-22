@@ -8,6 +8,7 @@
 # Check for Homebrew
 if test ! $(which brew)
 then
+  sudo -v
   echo "  Installing Homebrew for you."
   ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)" > /tmp/homebrew-install.log
 fi
