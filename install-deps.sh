@@ -1,5 +1,5 @@
 # up to you (me) if you want to run this as a file or copy paste at your leisure
-
+sudo -v
 
 # https://github.com/jamiew/git-friendly
 # the `push` command which copies the github compare URL to my clipboard is heaven
@@ -10,6 +10,9 @@
 #Paul does: curl -L https://get.rvm.io | bash -s stable --ruby
 #I do this one as it adds dependencies as well
 #curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
+
+# Homebrew
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
 # https://github.com/robbyrussell/oh-my-zsh
@@ -35,9 +38,9 @@ curl -L -s get.jenv.io | bash
 
 # https://github.com/rupa/z
 # z, oh how i love you
-cd
-git clone https://github.com/rupa/z.git
-chmod +x ~/z/z.sh
+#cd
+#git clone https://github.com/rupa/z.git
+#chmod +x ~/z/z.sh
 # also consider moving over your current .z file if possible. it's painful to rebuild :)
 
 # z binary is already referenced from .bash_profile
@@ -74,7 +77,7 @@ chmod +x ~/z/z.sh
 # Check gems are up to date without installing documentation
 sudo gem update --system --no-document
 # Install jekyll
-sudo gem install jekyll
+#sudo gem install jekyll
 
 # Set symlink for Sublime Text 2
 ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl

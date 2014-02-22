@@ -68,9 +68,9 @@ installcask light-table
 installcask omnifocus
 installcask tunnelblick
 installcask utorrent
-installcask java
-installcask java
-installcask java
+#installcask java
+#installcask java
+#installcask java
 
 
 
