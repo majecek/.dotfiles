@@ -36,11 +36,11 @@ function installcask() {
 installcask dropbox
 installcask google-chrome
 installcask google-chrome-canary
-installcask imageoptim
+#installcask imageoptim
 installcask iterm2
 installcask sublime-text
 installcask the-unarchiver
-installcask virtualbox
+#installcask virtualbox
 installcask vlc
 installcask java
 
@@ -63,7 +63,7 @@ installcask filezilla
 installcask firefox
 installcask forklift
 installcask gfxcardstatus
-installcask hamachi
+#installcask hamachi
 installcask light-table
 installcask omnifocus
 installcask tunnelblick
@@ -74,11 +74,11 @@ installcask utorrent
 
 
 
-#spotifree
-#spotify
+spotifree
+spotify
 #picasa
 #parallels
-#little-snitch
+little-snitch
 #intellij-idea-ultimate
 #intellij-idea-community
 
