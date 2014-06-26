@@ -18,6 +18,8 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 #curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 #chsh -s /usr/local/bin/zsh
 
+curl -L http://install.ohmyz.sh | sh
+
 # jenv.io
 curl -L -s get.jenv.io | bash
 
