@@ -18,7 +18,7 @@ brew install ack
 brew install git
 brew install node
 brew install tree
-brew install zsh zsh-completions
+brew install zsh-completions
 
 
 #
@@ -42,7 +42,7 @@ installcask sublime-text
 installcask the-unarchiver
 #installcask virtualbox
 installcask vlc
-installcask java
+#installcask java
 
 
 
