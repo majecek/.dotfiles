@@ -27,4 +27,4 @@ export ORACLE_HOME
 export PATH=$ORACLE_HOME/bin:$PATH
 
 #THIS MUST BE AT THE END OF THE FILE FOR JENV TO WORK!!!
-[[ -s "/Users/marek/.jenv/bin/jenv-init.sh" ]] && source "/Users/marek/.jenv/bin/jenv-init.sh" && source "/Users/marek/.jenv/commands/completion.sh"
+[[ -s "${HOME}/.jenv/bin/jenv-init.sh" ]] && source "${HOME}/.jenv/bin/jenv-init.sh" && source "${HOME}/.jenv/commands/completion.sh"
