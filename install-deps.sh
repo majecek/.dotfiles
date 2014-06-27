@@ -35,7 +35,9 @@ OH_MY_ZSH=~/.oh-my-zsh
 echo "Setting up Zsh and Oh-My-Zsh custom additions"
 #makeLink ${HOME}/z.sh
 mkdir -p ${OH_MY_ZSH}/custom/plugins/oh-my-settings
-ln -s ${DOTFILES}/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh ${OH_MY_ZSH}/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh
+ln -s ${DOTFILES}/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh ${ZSH}/custom/plugins/oh-my-settings/
+ln -s ${DOTFILES}/.zshrc ${HOME}/
+
 #makeLink ${OH_MY_ZSH}/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh
 
 

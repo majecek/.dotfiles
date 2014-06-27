@@ -33,58 +33,50 @@ function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
-installcask dropbox
-installcask google-chrome
-installcask google-chrome-canary
-#installcask imageoptim
+# installcask dropbox
+# installcask google-chrome
 installcask iterm2
 installcask sublime-text
-installcask the-unarchiver
-#installcask virtualbox
-installcask vlc
-#installcask java
-
-
+# installcask the-unarchiver
+# installcask vlc
 
 
 #
 # Here is list to install programs I use
 #
-installcask IntellijIdeaUltimate12
-installcask Onepassword3
-installcask onyx
-installcask appcleaner
-installcask bartender
-installcask bettertouchtool
-installcask caffeine
-installcask cord
-installcask evernote
-installcask filezilla
-installcask firefox
-installcask forklift
-installcask gfxcardstatus
-#installcask hamachi
-installcask light-table
-installcask omnifocus
-installcask tunnelblick
-installcask utorrent
-#installcask java
-#installcask java
-#installcask java
+# installcask IntellijIdeaUltimate12
+# installcask Onepassword3
+# installcask onyx
+# installcask appcleaner
+# installcask bartender
+# installcask bettertouchtool
+# installcask caffeine
+# installcask cord
+# installcask evernote
+# installcask filezilla
+# installcask firefox
+# installcask forklift
+# installcask gfxcardstatus
+# installcask light-table
+# installcask omnifocus
+# installcask tunnelblick
+# installcask utorrent
+# installcask little-snitch
+# installcask spotifree
+# installcask spotify
 
 
 
-spotifree
-spotify
+
 #picasa
 #parallels
-little-snitch
 #intellij-idea-ultimate
 #intellij-idea-community
-
-
-
-
+#installcask imageoptim
+#installcask java
+#installcask hamachi
+#installcask virtualbox
+#installcask google-chrome-canary
 
 
 # Remove outdated versions from the cellar
