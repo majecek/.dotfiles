@@ -14,7 +14,7 @@ plugins=(git git-flow brew sublime history-substring-search mvn osx gem docker o
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/share/npm/bin
+export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/share/npm/bin
 fpath=(/usr/local/share/zsh-completions $fpath)	
 
 export LC_ALL="en_US.utf-8"
