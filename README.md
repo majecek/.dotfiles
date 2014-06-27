@@ -1,4 +1,4 @@
-# Marek does dotfiles
+# Marek .dotfiles
 
 ## dotfiles
 
@@ -10,17 +10,15 @@ https://github.com/holman/dotfiles
 
 
  
-* presunout dotfiles-master do ~/.dotfiles
-* ./install-deps.sh
-* ./homebrew/install.sh  (instaloval xcode tools)
-* ./.cask
+* pull this project into your home directory 
+* ./install-deps.sh  (installs: HomeBrew, Oh-My-ZSH, JENV)
+* ./.cask (installs: lots of application I use)
 
- 
-osx soubor vylepsit: 
+
+Few tips:
+
+osx file - how to tweak it:
 https://github.com/mathiasbynens/dotfiles/blob/master/.osx
-
-
-
 
 https://github.com/skwp/dotfiles
 
