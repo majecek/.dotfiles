@@ -11,7 +11,7 @@ https://github.com/holman/dotfiles
 
  
 * pull this project into your home directory 
-* ./install-deps.sh  (installs: HomeBrew, Oh-My-ZSH, JENV)
+* ./install.sh  (installs: HomeBrew, Oh-My-ZSH, JENV, osx_settings)
 * ./.cask (installs: lots of application I use)
 
 
