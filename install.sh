@@ -33,9 +33,6 @@ mkdir -p ${OH_MY_ZSH}/custom/plugins/oh-my-settings
 
 makeLink ${HOME}/.zshrc 
 makeLink ${OH_MY_ZSH}/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh
-makeLink ${HOME}/bin
-
-
 
 
 
