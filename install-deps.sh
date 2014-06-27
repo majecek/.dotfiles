@@ -28,14 +28,14 @@ curl -L -s get.jenv.io | bash
 #git -C z pull
 
 DOTFILES=${HOME}/.dotfiles
-OH_MY_ZSH=~/.oh-my-zsh
+OH_MY_ZSH=${HOME}/.oh-my-zsh
 [ ! -d ${DOTFILES} ] && echo "${DOTFILES} does not exist, exiting" && exit 1
 
 
 echo "Setting up Zsh and Oh-My-Zsh custom additions"
 #makeLink ${HOME}/z.sh
 mkdir -p ${OH_MY_ZSH}/custom/plugins/oh-my-settings
-ln -s ${DOTFILES}/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh ${ZSH}/custom/plugins/oh-my-settings/
+ln -s ${DOTFILES}/.oh-my-zsh/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh ${OH_MY_ZSH}/custom/plugins/oh-my-settings/
 ln -s ${DOTFILES}/.zshrc ${HOME}/
 
 #makeLink ${OH_MY_ZSH}/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh
