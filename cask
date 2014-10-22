@@ -67,6 +67,8 @@ installcask spotify
 installcask p4merge
 installcask sourcetree
 installcask flux
+installcask qlstephen
+
 
 
 
