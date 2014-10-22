@@ -44,8 +44,8 @@ installcask vlc
 #
 # Here is list to install programs I use
 #
-installcask IntellijIdeaUltimate12
-installcask Onepassword3
+#installcask IntellijIdeaUltimate12
+#installcask Onepassword3
 installcask onyx
 installcask appcleaner
 installcask bartender
@@ -64,6 +64,8 @@ installcask utorrent
 installcask little-snitch
 installcask spotifree
 installcask spotify
+installcask p4merge
+installcask sourcetree
 
 
 
