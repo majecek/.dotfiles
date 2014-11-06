@@ -1,2 +1,1 @@
-
-alias ,ll='ls -alF'
+/Users/marek/.oh-my-zsh/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh
