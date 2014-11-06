@@ -68,6 +68,7 @@ installcask p4merge
 installcask sourcetree
 installcask flux
 installcask qlstephen
+installcask alarm-clock
 
 
 
