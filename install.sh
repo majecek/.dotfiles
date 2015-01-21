@@ -12,7 +12,7 @@ makeLink () {
 sudo -v
 
 # Homebrew
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # OH_MY_ZSH
 curl -L http://install.ohmyz.sh | sh
