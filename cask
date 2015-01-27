@@ -49,7 +49,7 @@ installcask vlc
 installcask onyx
 installcask appcleaner
 installcask bartender
-installcask bettertouchtool
+#installcask bettertouchtool  # had to you installation from web - don't know what was the problem
 installcask caffeine
 installcask cord
 installcask evernote
@@ -57,7 +57,7 @@ installcask filezilla
 installcask firefox
 installcask forklift
 installcask gfxcardstatus
-installcask light-table
+installcask lighttable
 installcask omnifocus
 installcask tunnelblick
 installcask utorrent
