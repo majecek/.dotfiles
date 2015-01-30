@@ -24,7 +24,7 @@ curl -L -s get.jenv.io | bash
 # https://github.com/rupa/z
 #git -C z pull
 
-DOTFILES=${HOME}/.dotfiles
+DOTFILES=${HOME}/.dotfiles/.dotfiles
 OH_MY_ZSH=${HOME}/.oh-my-zsh
 [ ! -d ${DOTFILES} ] && echo "${DOTFILES} does not exist, exiting" && exit 1
 
