@@ -9,7 +9,7 @@ alias gs="/usr/local/bin/groovyclient"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_CORRECTION="true"
 
-plugins=(git git-flow brew sublime history-substring-search mvn osx gem docker oh-my-settings)
+plugins=(git git-flow brew sublime history-substring-search mvn osx gem docker oh-my-settings oh-my-company gradle )
 
 source $ZSH/oh-my-zsh.sh
 
