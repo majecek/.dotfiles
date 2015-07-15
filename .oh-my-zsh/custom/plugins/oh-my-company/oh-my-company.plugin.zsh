@@ -8,3 +8,9 @@ _cleanAndBuild() {
 alias ,vCleanBuild=_cleanAndBuild
 
 ,vjbossHomeOnly() {./vv81 jboss-gen-startup-scripts}
+
+
+,vjbossLogging() {
+ cd '/Users/marek/.jenv/candidates/jboss/current/bin' && ./twiddle.sh -s localhost:1099 -u admin -p admin invoke "jboss.system:service=Logging,type=Log4jService" setLoggerLevel $1 "INFO"
+}
+
