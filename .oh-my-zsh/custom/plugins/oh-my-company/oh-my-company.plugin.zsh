@@ -15,3 +15,29 @@ say "done done done" }
 ,vjbossLogging() {  cd '/Users/marek/.jenv/candidates/jboss/current/bin' && ./twiddle.sh -s localhost:1099 -u admin -p admin invoke "jboss.system:service=Logging,type=Log4jService" setLoggerLevel $1 "INFO" }
 
 ,jbossUsefullInfo() { cd '/Users/marek/.jenv/candidates/jboss/current/bin' && ./twiddle.sh -s 127.0.0.1:1099 get jboss.system:type=ServerInfo FreeMemory MaxMemory TotalMemory ActiveThreadCount }
+
+
+#that's some old shit
+function __clean-cask {
+    caskBasePath="/opt/homebrew-cask/Caskroom"
+    local cask="$1"
+    local caskDirectory="$caskBasePath/$cask"
+    local versionsToRemove="$(ls -r $caskDirectory | sed 1,1d)"
+    if [[ -n $versionsToRemove ]]; then
+        while read versionToRemove ; do
+            echo "Removing $cask $versionToRemove..."
+            rm -rf "$caskDirectory/$versionToRemove"
+        done <<< "$versionsToRemove"
+    fi
+}
+
+#call this command to cleanup all, or you can specify cask name
+function cask-retire {
+  if [[ $# -eq 0 ]]; then
+      while read cask; do
+          __clean-cask "$cask"
+      done <<< "$(brew cask list)"
+  else
+      clean-cask "$1"
+  fi
+}
