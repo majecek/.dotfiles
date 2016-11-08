@@ -34,12 +34,13 @@ function installcask() {
 }
 
 installcask dropbox
-installcask google-chrome
+#installcask google-chrome
 installcask iterm2
 installcask sublime-text
 installcask the-unarchiver
 installcask vlc
-
+installcask cyberghost
+installcask atom
 
 #
 # Here is list to install programs I use
