@@ -35,8 +35,8 @@ function installcask() {
 
 installcask dropbox
 #installcask google-chrome
-installcask iterm2
-installcask sublime-text
+#installcask iterm2
+#installcask sublime-text
 installcask the-unarchiver
 installcask vlc
 installcask cyberghost
@@ -49,21 +49,21 @@ installcask atom
 #installcask Onepassword3
 installcask onyx
 installcask appcleaner
-installcask bartender
+#installcask bartender
 #installcask bettertouchtool  # had to you installation from web - don't know what was the problem
 installcask caffeine
-installcask cord
+#installcask cord
 installcask evernote
 installcask filezilla
 installcask firefox
 installcask forklift
-installcask gfxcardstatus
-installcask lighttable
+#installcask gfxcardstatus
+#installcask lighttable
 installcask omnifocus
 installcask tunnelblick
 installcask utorrent
 installcask little-snitch
-installcask spotifree
+#installcask spotifree
 installcask spotify
 installcask p4merge
 installcask sourcetree
