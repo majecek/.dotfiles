@@ -24,16 +24,16 @@ curl -L -s get.jenv.io | bash
 # https://github.com/rupa/z
 #git -C z pull
 
-DOTFILES=${HOME}/.dotfiles/.dotfiles
+DOTFILES=${HOME}/.dotfiles
 OH_MY_ZSH=${HOME}/.oh-my-zsh
 [ ! -d ${DOTFILES} ] && echo "${DOTFILES} does not exist, exiting" && exit 1
 
 echo "Setting up Zsh and Oh-My-Zsh custom additions"
 mkdir -p ${OH_MY_ZSH}/custom/plugins/oh-my-settings
 
-makeLink ${HOME}/.zshrc 
+makeLink ${HOME}/.zshrc
 makeLink ${OH_MY_ZSH}/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh
-
+makeLink ${OH_MY_ZSH}/custom/plugins/oh-my-settings/oh-my-docker.plugin.zsh
 
 
 
