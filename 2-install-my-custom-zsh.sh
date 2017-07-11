@@ -14,8 +14,11 @@ OH_MY_ZSH=${HOME}/.oh-my-zsh
 
 echo "Setting up Zsh and Oh-My-Zsh custom additions"
 mkdir -p ${OH_MY_ZSH}/custom/plugins/oh-my-settings
+mkdir -p ${OH_MY_ZSH}/custom/themes
 
 makeLink ${HOME}/.zshrc
 makeLink ${OH_MY_ZSH}/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh
 makeLink ${OH_MY_ZSH}/custom/plugins/oh-my-settings/oh-my-docker.plugin.zsh
 
+#powerlevel9k theme
+ln -s ${DOTFILES}/.oh-my-zsh/custom/themes/powerlevel9k ${OH_MY_ZSH}/custom/themes/powerlevel9k

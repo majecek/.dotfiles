@@ -6,7 +6,7 @@ export DOCKER_REPO_PREFIX=jess
 #
 # Helper Functions
 #
-dcleanup(){
+,dcleanup(){
 	local containers
 	containers=( $(docker ps -aq 2>/dev/null) )
 	docker rm "${containers[@]}" 2>/dev/null
@@ -17,7 +17,7 @@ dcleanup(){
 	images=( $(docker images --filter dangling=true -q 2>/dev/null) )
 	docker rmi "${images[@]}" 2>/dev/null
 }
-del_stopped(){
+,del_stopped(){
 	local name=$1
 	local state
 	state=$(docker inspect --format "{{.State.Running}}" "$name" 2>/dev/null)
@@ -38,11 +38,11 @@ relies_on(){
 	done
 }
 
-nmap(){
+,nmap(){
 	docker run --rm --net=host gvangool/nmap "$@"
 }
 
-firefox(){
+,firefox(){
 	del_stopped firefox
 
 	docker run -d \

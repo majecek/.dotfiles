@@ -19,6 +19,7 @@ brew install git
 brew install node
 brew install tree
 brew install zsh-completions
+brew install youtube-dl
 
 
 #
@@ -26,63 +27,60 @@ brew install zsh-completions
 #
 
 # Install native apps
-brew tap phinze/homebrew-cask
+#brew tap phinze/homebrew-cask
 brew install brew-cask
 
 function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
-installcask dropbox
-#installcask google-chrome
-#installcask iterm2
-#installcask sublime-text
-installcask the-unarchiver
-installcask vlc
-installcask cyberghost
-installcask atom
+
+
+
 
 #
 # Here is list to install programs I use
 #
 #installcask IntellijIdeaUltimate12
 #installcask Onepassword3
-installcask onyx
-installcask appcleaner
 #installcask bartender
 #installcask bettertouchtool  # had to you installation from web - don't know what was the problem
-installcask caffeine
-#installcask cord
-installcask evernote
-installcask filezilla
-installcask firefox
-installcask forklift
+#installcask google-chrome
+#installcask iterm2
+#installcask sublime-text
+#installcask forklift
 #installcask gfxcardstatus
 #installcask lighttable
-installcask omnifocus
-installcask tunnelblick
-installcask utorrent
-installcask little-snitch
+#installcask omnifocus
 #installcask spotifree
+
+installcask dropbox
+installcask the-unarchiver
+installcask vlc
+installcask purevpn
+installcask atom
+installcask onyx
+installcask appcleaner
+installcask shiftit  #alternative could be spectacle - www.spectacleapp.com
+installcask caffeine
+installcask filezilla
+installcask firefox
+installcask tunnelblick
+installcask qBittorrent
+installcask little-snitch
 installcask spotify
 installcask p4merge
 installcask sourcetree
-installcask flux
 installcask qlstephen
 installcask alarm-clock
+installcask java
+installcask virtualbox
+installcask picasa
+installcask sourcetree
+installcask google-drive
+installcask skype
 
 
-
-
-#picasa
-#parallels
-#intellij-idea-ultimate
-#intellij-idea-community
-#installcask imageoptim
-#installcask java
-#installcask hamachi
-#installcask virtualbox
-#installcask google-chrome-canary
 
 
 # Remove outdated versions from the cellar

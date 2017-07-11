@@ -1,7 +1,13 @@
 
 ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir  vcs )
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator  public_ip load time)
+#POWERLEVEL9K_DIR_HOME_BACKGROUND="black"
+POWERLEVEL9K_DIR_HOME_FOREGROUND="white"
+
 #alias ll="ls -alF"
 #alias gs="/usr/local/bin/groovyclient"
 
@@ -32,3 +38,6 @@ export PATH=$ORACLE_HOME/bin:$PATH
 
 #THIS MUST BE AT THE END OF THE FILE FOR JENV TO WORK!!!
 [[ -s "${HOME}/.jenv/bin/jenv-init.sh" ]] && source "${HOME}/.jenv/bin/jenv-init.sh" && source "${HOME}/.jenv/commands/completion.sh"
+
+# added by travis gem
+[ -f /Users/marek/.travis/travis.sh ] && source /Users/marek/.travis/travis.sh
