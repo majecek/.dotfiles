@@ -1,0 +1,27 @@
+
+[git/Kata]
+checkout = git clone 'git@github.com:xxBedy/Kata.git' 'Kata'
+
+[git/.dotfiles]
+checkout = git clone 'git@github.com:majecek/.dotfiles.git' '.dotfiles'
+
+[git/byt_1-1]
+checkout = git clone 'git@bitbucket.org:majecek/byt_1-1.git' 'byt_1-1'
+
+[git/dive_logs]
+checkout = git clone 'git@bitbucket.org:majecek/dive_logs.git' 'dive_logs'
+
+[git/exercism]
+checkout = git clone 'git@github.com:majecek/exercism.git' 'exercism'
+
+[git/faktury]
+checkout = git clone 'git@bitbucket.org:majecek/faktury.git' 'faktury'
+
+[git/firma]
+checkout = git clone 'git@bitbucket.org:majecek/firma.git' 'firma'
+
+[git/idea_live_templates]
+checkout = git clone 'git@github.com:majecek/idea_live_templates.git' 'idea_live_templates'
+
+[git/netoutagelogger]
+checkout = git clone 'ssh://545bd6985973cab7370006df@netoutagelogger-marek9876.rhcloud.com/~/git/netoutagelogger.git/' 'netoutagelogger'

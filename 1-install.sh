@@ -32,6 +32,12 @@ echo "Setting up Zsh and Oh-My-Zsh custom additions"
 mkdir -p ${OH_MY_ZSH}/custom/plugins/oh-my-settings
 
 makeLink ${HOME}/.zshrc
+makeLink ${HOME}/.mrconfig
+makeLink ${HOME}/.vimrc
+makeLink ${HOME}/.exercism.json
+makeLink ${HOME}/.gitconfig
+makeLink ${HOME}/.gitignore
+makeLink ${HOME}/.gitignore_global
 makeLink ${OH_MY_ZSH}/custom/plugins/oh-my-settings/oh-my-settings.plugin.zsh
 makeLink ${OH_MY_ZSH}/custom/plugins/oh-my-settings/oh-my-docker.plugin.zsh
 

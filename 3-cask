@@ -20,7 +20,7 @@ brew install node
 brew install tree
 brew install zsh-completions
 brew install youtube-dl
-
+brew install mr
 
 #
 # Install default application

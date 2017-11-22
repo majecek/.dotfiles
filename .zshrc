@@ -17,7 +17,7 @@ POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_CORRECTION="true"
 
-plugins=(git git-flow brew sublime history-substring-search mvn osx gem docker oh-my-settings oh-my-company oh-my-docker gradle )
+plugins=(git git-flow brew history-substring-search mvn osx docker oh-my-settings oh-my-company oh-my-docker gradle wd yarn z )
 
 source $ZSH/oh-my-zsh.sh
 
