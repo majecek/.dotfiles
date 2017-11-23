@@ -21,6 +21,8 @@ brew install tree
 brew install zsh-completions
 brew install youtube-dl
 brew install mr
+brew install pt
+brew install tldr
 
 #
 # Install default application
