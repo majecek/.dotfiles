@@ -23,6 +23,8 @@ brew install youtube-dl
 brew install mr
 brew install pt
 brew install tldr
+brew install htop
+brew install mc
 
 #
 # Install default application
@@ -75,7 +77,7 @@ installcask p4merge
 installcask sourcetree
 installcask qlstephen
 installcask alarm-clock
-installcask java
+#installcask java
 installcask virtualbox
 installcask picasa
 installcask sourcetree
