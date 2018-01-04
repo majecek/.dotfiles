@@ -86,7 +86,7 @@ installcask google-drive
 installcask skype
 installcask google-cloud-sdk
 installcask microsoft-remote-desktop-beta
-
+installcask thinkorswim
 
 # Remove outdated versions from the cellar
 brew cleanup
