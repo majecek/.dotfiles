@@ -33,6 +33,7 @@ brew install mc
 # Install native apps
 #brew tap phinze/homebrew-cask
 brew install brew-cask
+brew tap caskroom/versions
 
 function installcask() {
 	brew cask install "${@}" 2> /dev/null
@@ -83,8 +84,8 @@ installcask picasa
 installcask sourcetree
 installcask google-drive
 installcask skype
-
-
+installcask google-cloud-sdk
+installcask microsoft-remote-desktop-beta
 
 
 # Remove outdated versions from the cellar

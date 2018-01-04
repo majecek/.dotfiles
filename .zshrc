@@ -38,6 +38,12 @@ export SQLPATH
 export ORACLE_HOME
 export PATH=$ORACLE_HOME/bin:$PATH
 
+
+### Google cloud SDK
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+
+
 #THIS MUST BE AT THE END OF THE FILE FOR JENV TO WORK!!!
 [[ -s "${HOME}/.jenv/bin/jenv-init.sh" ]] && source "${HOME}/.jenv/bin/jenv-init.sh" && source "${HOME}/.jenv/commands/completion.sh"
 
