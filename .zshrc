@@ -28,16 +28,18 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 export LC_ALL="en_US.utf-8"
 export LANG="en_US.utf-8"
 
-ORACLE_DIR=/opt/oracle
-ORACLE_HOME=$ORACLE_DIR/ohome
-DYLD_LIBRARY_PATH=$ORACLE_HOME/lib
-SQLPATH=$ORACLE_HOME
+#ORACLE_DIR=/opt/oracle
+#ORACLE_HOME=$ORACLE_DIR/ohome
+#DYLD_LIBRARY_PATH=$ORACLE_HOME/lib
+#SQLPATH=$ORACLE_HOME
 
-export DYLD_LIBRARY_PATH
-export SQLPATH
-export ORACLE_HOME
-export PATH=$ORACLE_HOME/bin:$PATH
+#export DYLD_LIBRARY_PATH
+#export SQLPATH
+#export ORACLE_HOME
+#export PATH=$ORACLE_HOME/bin:$PATH
 
+export ORACLE_HOME=/opt/oracle/ohome
+export PATH="$PATH:$ORACLE_HOME/bin"
 
 ### Google cloud SDK
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
