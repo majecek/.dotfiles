@@ -49,6 +49,7 @@ function installcask() {
 #installcask IntellijIdeaUltimate12
 #installcask Onepassword3
 installcask bartender
+installcask horndis  #sharing USB tethering on android phone
 #installcask bettertouchtool  # had to you installation from web - don't know what was the problem
 #installcask google-chrome
 #installcask iterm2
