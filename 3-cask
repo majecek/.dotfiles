@@ -65,7 +65,7 @@ installcask the-unarchiver
 installcask vlc
 installcask purevpn
 installcask atom
-installcask onyx
+#installcask onyx
 installcask appcleaner
 installcask shiftit  #alternative could be spectacle - www.spectacleapp.com
 installcask caffeine
@@ -76,12 +76,11 @@ installcask qBittorrent
 installcask little-snitch
 installcask spotify
 installcask p4merge
-installcask sourcetree
 installcask qlstephen
 installcask alarm-clock
 #installcask java
 installcask virtualbox
-installcask picasa
+#installcask picasa
 installcask sourcetree
 installcask google-drive
 installcask skype
@@ -89,6 +88,7 @@ installcask google-cloud-sdk
 installcask microsoft-remote-desktop-beta
 installcask thinkorswim
 installcask google-backup-and-sync
+installcask coconutbattery
 
 # Remove outdated versions from the cellar
 brew cleanup
