@@ -25,6 +25,8 @@ brew install pt
 brew install tldr
 brew install htop
 brew install mc
+brew install speedtest-cli
+brew install mackup
 
 #
 # Install default application
@@ -34,6 +36,7 @@ brew install mc
 #brew tap phinze/homebrew-cask
 brew install brew-cask
 brew tap caskroom/versions
+brew tap caskroom/fonts
 
 function installcask() {
 	brew cask install "${@}" 2> /dev/null
@@ -59,6 +62,7 @@ installcask horndis  #sharing USB tethering on android phone
 #installcask lighttable
 #installcask omnifocus
 installcask spotifree
+installcask font-source-code-pro-for-powerline
 
 installcask dropbox
 installcask the-unarchiver
@@ -89,6 +93,7 @@ installcask microsoft-remote-desktop-beta
 installcask thinkorswim
 installcask google-backup-and-sync
 installcask coconutbattery
+installcask itsycal
 
 # Remove outdated versions from the cellar
 brew cleanup
