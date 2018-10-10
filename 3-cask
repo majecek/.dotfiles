@@ -27,6 +27,7 @@ brew install htop
 brew install mc
 brew install speedtest-cli
 brew install mackup
+brew install z
 
 #
 # Install default application
@@ -79,9 +80,7 @@ installcask tunnelblick
 installcask qBittorrent
 installcask little-snitch
 installcask spotify
-installcask p4merge
 installcask qlstephen
-installcask alarm-clock
 #installcask java
 installcask virtualbox
 #installcask picasa
@@ -94,6 +93,9 @@ installcask thinkorswim
 installcask google-backup-and-sync
 installcask coconutbattery
 installcask itsycal
+installcask insomnia
+installcask p4v 
+
 
 # Remove outdated versions from the cellar
 brew cleanup
