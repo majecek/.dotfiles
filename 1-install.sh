@@ -18,7 +18,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 curl -L http://install.ohmyz.sh | sh
 
 # jenv.io
-curl -L -s get.jenv.mvnsearch.org | bash
+#curl -L -s get.jenv.mvnsearch.org | bash
 
 # update z from repository
 # https://github.com/rupa/z

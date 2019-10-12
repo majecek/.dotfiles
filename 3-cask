@@ -36,8 +36,8 @@ brew install z
 # Install native apps
 #brew tap phinze/homebrew-cask
 brew install brew-cask
-brew tap caskroom/versions
-brew tap caskroom/fonts
+brew tap homebrew/cask-versions
+brew tap homebrew/cask-fonts
 
 function installcask() {
 	brew cask install "${@}" 2> /dev/null
