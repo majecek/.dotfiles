@@ -28,7 +28,8 @@ brew install mc
 brew install speedtest-cli
 brew install mackup
 brew install z
-
+brew install go
+brew install mosh
 #
 # Install default application
 #
@@ -69,6 +70,8 @@ installcask dropbox
 installcask the-unarchiver
 installcask vlc
 installcask purevpn
+installcask protonvpn
+installcask nomachine
 installcask atom
 #installcask onyx
 installcask appcleaner
@@ -90,12 +93,14 @@ installcask skype
 installcask google-cloud-sdk
 installcask microsoft-remote-desktop-beta
 installcask thinkorswim
+installcask trader-workstation
+installcask signal
 installcask google-backup-and-sync
 installcask coconutbattery
 installcask itsycal
 installcask insomnia
 installcask p4v 
-
+installcask visual-studio-code
 
 # Remove outdated versions from the cellar
 brew cleanup
