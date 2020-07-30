@@ -39,6 +39,8 @@ brew install mosh
 brew install brew-cask
 brew tap homebrew/cask-versions
 brew tap homebrew/cask-fonts
+brew tap homebrew/livecheck
+
 
 function installcask() {
 	brew cask install "${@}" 2> /dev/null
@@ -94,6 +96,8 @@ installcask google-cloud-sdk
 installcask microsoft-remote-desktop-beta
 installcask thinkorswim
 installcask trader-workstation
+installcask macs-fan-control
+installcask gfxCardStatus
 installcask signal
 installcask google-backup-and-sync
 installcask coconutbattery
