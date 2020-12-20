@@ -112,6 +112,7 @@ installcask insomnia
 installcask p4v 
 installcask visual-studio-code
 installcask telegram
+installcask zerotier-one
 
 # Remove outdated versions from the cellar
 brew cleanup
